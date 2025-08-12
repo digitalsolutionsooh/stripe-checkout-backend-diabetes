@@ -64,12 +64,12 @@ async def create_checkout_session(request: Request):
 
     # escolhe a URL de sucesso de acordo com o produto
     if price_id in (
-        'price_1RuLSnEHsMKn9uopKXdIKW4T',
-        'price_1RuLumEHsMKn9uopQYJvI5La'
+        'price_1Rstj7EHsMKn9uopBJQeEopU',
+        'price_1RvN92EHsMKn9uop7OlqKRNj'
     ):
-        success_url = 'https://yt2025hub.com/tools-stripe/up1'
+        success_url = 'https://learnmoredigitalcourse.com/members-area-revital'
     else:
-        success_url = 'https://yt2025hub.com/presell-stripe/grow2025/vsl'
+        success_url = 'https://learnmoredigitalcourse.com/stripe-revital-39'
 
     session = stripe.checkout.Session.create(
         payment_method_types=['card'],
